@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args){
+        ClienteContrato colecao = new ColecaoClientes();
+
         cliente c1 = new cliente();
         c1.setNome("Othon César");
         c1.setCPF("09902650481");
