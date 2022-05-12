@@ -54,6 +54,10 @@ public class Clube {
     public void setPlano(String plano) {
         this.plano = plano;
     }
+
+    public void pagamentoFuncionario() {
+        System.out.println("CLT");
+    }
 }
 
 
