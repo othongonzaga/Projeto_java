@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         Contrato_Clube Clube1 = new Dados_Clube();
+        System.out.println(Clube1 instanceof Dados_Clube);
         //Dados_Clube Clube1 = new Dados_Clube();
         Clube1.CadastroDados("Kofun", 6666, 666666, "Caruaru", "b");
         //Clube1.RemoverCadastro(6666);
