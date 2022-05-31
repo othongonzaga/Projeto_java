@@ -2,12 +2,12 @@ package Classes;
 
 public class Clube {
     private String nome;
-    private int cpf;
-    private int telefone;
+    private long cpf;
+    private long telefone;
     private String endereco;
     private String plano;
 
-    public Clube(String nome, int cpf, int telefone, String endereco, String plano){
+    public Clube(String nome, long cpf, long telefone, String endereco, String plano){
         this.nome = nome;
         this.cpf = cpf;
         this.telefone = telefone;
@@ -23,19 +23,19 @@ public class Clube {
         this.nome = nome;
     }
 
-    public int getCpf() {
+    public long getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(long cpf) {
         this.cpf = cpf;
     }
 
-    public int getTelefone() {
+    public long getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(int telefone) {
+    public void setTelefone(long telefone) {
         this.telefone = telefone;
     }
 
@@ -59,5 +59,3 @@ public class Clube {
         System.out.println("CLT");
     }
 }
-
-
